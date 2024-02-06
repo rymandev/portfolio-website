@@ -13,7 +13,7 @@
 <body>
     <div class="header-background">
         <header class="page-header">
-            <img src="img/logo.svg" class="page-header__item logo" alt="Logo">
+            <a href="index.html"><img src="img/logo.svg" class="page-header__item logo" alt="Logo"></a>
          <nav class="page-header__item">
                 <ul role="menubar" class="navigation-list"> 
                     <li role="presentation">
@@ -35,44 +35,61 @@
 
     <div class="content">
         <div>
-            <h1>About</h1>
+            <h1 class="container">About</h1>
             <p>
                 I am a full time-profesional with a B.A. in International Affairs, pivoting into a new career in Web Development, including Front-End design and development, Back-End development, and cloud computing. I love learning new skills and broadening my horizons, helping people and otimizing systems. I am based out of the Pacific Northwest, and I also am an avid hiker and animal lover. 
             </p>
         </div>
 
-        <div class="table">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Skills</th>
-                        <th>Years of Experience</th>
-                        <th>Level of expertise</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>HTML</td>
-                        <td>&lt1</td>
-                        <td>Advanced</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>&lt1</td>
-                        <td>intermediate</td>
-                    </tr>
-                    <tr>
-                        <td>JavaScript</td>
-                        <td>&lt1</td>
-                        <td>Beginner</td>
-                    </tr>
-                </tbody>
-            </table>
+        <div class="container">
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Languages:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Frameworks:</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Node</td>
+                        </tr>
+                        <tr>
+                            <td>React</td>
+                        </tr>
+                        <tr>
+                            <td><br /></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div>
 
         <p></p>
 
-        <a href="https://www.linkedin.com/in/ryn-r-635810a1/" class="button" target="_blank">View my LinkedIn</a>
+        <div class="container">
+            <a href="https://www.linkedin.com/in/ryn-r-635810a1/" class="button" target="_blank">View my LinkedIn</a>
+        </div>
     </div>
 
     <svg id="about-picture" xmlns="http://www.w3.org/2000/svg" class="skyline" height="auto" viewBox="0 0 700 150" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -102,9 +119,8 @@
     <footer class="page-footer">
         <p>find me on</p>
         <div class="social-media">
-            <img src="img/github_icon.svg" alt="Github">
-            <img src="img/twitter_icon.svg" alt="Twitter">
-            <img src="img/linkedin_icon.svg" alt="LinkedIn">
+            <a href="https://github.com/rymandev/"><img src="img/github_icon.svg" class="page-footer__logo" alt="Github"></a>
+            <a href="https://www.linkedin.com/in/ryn-r-635810a1/"><img src="img/linkedin_icon.svg" class="page-footer__logo" alt="Linkedin"></a>
         </div>
     </footer>
 

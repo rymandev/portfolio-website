@@ -24,6 +24,9 @@ body {
 }
 
 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 20px;
 }
 
@@ -193,6 +196,11 @@ button:visited, .button:visited {
     box-sizing: border-box;
 }
 
+.page-footer__logo {
+    height: 40px;
+    margin-inline: 5px;
+}
+
 /* start grid fallback */
 .grid__item {
     display: inline-block;
@@ -243,15 +251,21 @@ button:visited, .button:visited {
     }
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .table {
     display: flex;
-    width: 100%;
+    width: 400px;
+    min-width: fit-content;
     justify-content: center;
 }
 
 table {
     width: 100%;
-    max-width: 850px;
+    max-width: 400px;
 }
 
 th {
@@ -266,6 +280,7 @@ td {
 form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     max-width: 350px;
 }
 
